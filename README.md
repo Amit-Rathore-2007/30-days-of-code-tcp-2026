@@ -3,7 +3,6 @@
 ### Student
 Amit Kumar Rathore\
 Branch : CSE\
-
 Roll no. : 25115013
 
 #### Day 1
