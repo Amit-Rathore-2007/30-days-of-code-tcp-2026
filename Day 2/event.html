@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Days of Code</title>
+</head>
+<body>
+    <!-- Event Schedule (Tables) -->
+    <section>
+        <h1>Event Schedule</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM - 11:00 AM</td>
+                    <td>Web Development Workshop</td>
+                    <td>Room F-30, NIT Raipur</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM - 1:00 PM</td>
+                    <td>Artificial Intelligence Workshop</td>
+                    <td>Room F-34, NIT Raipur</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 3:00 PM</td>
+                    <td>Machine Learning Workshop</td>
+                    <td>Room F-20, NIT Raipur</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form (Forms & Inputs) -->
+    <section>
+        <h1>Registration Form</h1>
+        <form method="post" action="/signup">
+            <label for="username">Name :</label>
+            <input type="text" id="username" placeholder="Full Name" required>
+
+            <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+
+            <br><br>
+
+            <label for="mob">Mobile No.</label>
+            <input type="number" id="mob" placeholder="Number" required>
+
+            <br><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" placeholder="Date of Birth" required>
+
+            <br><br>
+
+            <label>Choose Ticket Type:</label>
+            <input type="radio" name="gender" id="T1" required>
+            <label for="T1">Standard</label>
+            <input type="radio" name="gender" id="T2" required>
+            <label for="T2">Premium</label>
+            <input type="radio" name="gender" id="T3" required>
+            <label for="T3">VIP</label>
+
+            <br><br>
+
+            <label>Workshop Preference :</label>
+            <input type="checkbox" id="W1">
+            <label for="W1">Web Development</label>
+            <input type="checkbox" id="W2">
+            <label for="W2">Artificial Intelligence</label>
+            <input type="checkbox" id="W3">
+            <label for="W3">Machine Learning</label>
+
+            <br><br>
+
+            <textarea placeholder="Add Comments"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
