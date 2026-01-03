@@ -1,0 +1,41 @@
+*{
+    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    color: rgb(72, 69, 69);
+    text-decoration: underline;
+}
+
+main section{
+    margin: 30px;
+    color: rgb(107, 101, 101);
+}
+
+.profileImg img{
+    height: 300px;
+    width: auto;
+}
+
+.skills ol{
+    font-weight: 500;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    all: unset;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(57, 90, 9);
+}
