@@ -17,7 +17,7 @@ about.html
 event.html
 <img width="1919" height="995" alt="Screenshot 2026-01-02 010223" src="https://github.com/user-attachments/assets/0f23aebb-d496-4973-9b4c-7c121e7c33bc" />
 
-#### Day 1
+#### Day 3
 index.html + index.css
 <img width="1919" height="936" alt="Screenshot 2026-01-03 235256" src="https://github.com/user-attachments/assets/7f39bd46-f07a-4cc6-9428-7ea1dcb9a130" />
 <img width="1889" height="707" alt="Screenshot 2026-01-03 235313" src="https://github.com/user-attachments/assets/3f71b744-2b4b-4dd8-9051-fab14ac537ee" />
