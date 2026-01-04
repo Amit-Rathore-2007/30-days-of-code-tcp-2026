@@ -26,12 +26,12 @@ about.html + about.css
 
 #### Day 4
 landing.html + style.css
-<img width="1919" height="1005" alt="Screenshot 2026-01-04 143842" src="https://github.com/user-attachments/assets/c33d4e4c-2ff1-4322-8209-636826ab5a43" />
-<img width="1898" height="872" alt="Screenshot 2026-01-04 143901" src="https://github.com/user-attachments/assets/41d56393-33d1-4e0a-b862-4faad4403545" />
-<img width="1893" height="872" alt="Screenshot 2026-01-04 143932" src="https://github.com/user-attachments/assets/d08f4b4d-ba11-45da-945d-fc59067209bd" />
-<img width="1892" height="371" alt="Screenshot 2026-01-04 143948" src="https://github.com/user-attachments/assets/d9721125-a716-49f2-9835-0c7cea76ea84" />
+<img width="1919" height="918" alt="Screenshot 2026-01-04 180300" src="https://github.com/user-attachments/assets/abaec167-a455-4c0a-a1c6-2aab7351943e" />
+<img width="1919" height="809" alt="Screenshot 2026-01-04 180315" src="https://github.com/user-attachments/assets/bd472b1e-9d59-4fc2-8b20-8c715f06ef25" />
+<img width="1915" height="753" alt="Screenshot 2026-01-04 180335" src="https://github.com/user-attachments/assets/584e7d69-5af7-44ef-8b1f-5a93a1d8ff83" />
 
-[Output Video](https://github.com/user-attachments/assets/58bce65f-c6ee-4642-a9dd-db14d758360a)
+
+[Output Video](https://github.com/user-attachments/assets/0f3c0b20-dd0a-40ed-a74a-f5fb6ea34d76)
 
 
 
