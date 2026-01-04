@@ -32,9 +32,3 @@ landing.html + style.css
 
 
 [Output Video](https://github.com/user-attachments/assets/0f3c0b20-dd0a-40ed-a74a-f5fb6ea34d76)
-
-
-
-
-
-
