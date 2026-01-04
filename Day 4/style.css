@@ -1,0 +1,214 @@
+*{
+    cursor:default;
+    background-color: rgb(12,16,20);
+    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0;
+}
+
+header nav{
+    width: 250px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.linkNav{
+    margin: 0 10px;
+}
+
+.linkNav a{
+    all: unset;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 1s ease;
+}
+
+.linkNav a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero h1{
+    margin: none;
+    letter-spacing: 2px;
+    font-size: 3.2rem;
+    font-family: "Caveat", cursive;;
+    color: rgb(156, 152, 152);
+    animation: fadein 2s ease-in;
+}
+
+#hero p{
+    margin: none;
+    color: #a8a8a8;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero button{
+    all: unset;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #343232;
+    margin: 100px 0 100px;
+    background-color: #aca9a9;
+    animation: slideup 10s ease;
+}
+
+section{
+    height: auto;
+    margin: 20px 0;
+}
+
+section h2{
+    color: rgb(156, 152, 152);
+    font-size: 30px;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: underline rgb(107, 104, 104);
+    
+}
+
+.card h3{
+    color:rgb(59, 56, 56) ;
+}
+
+.card-box{
+    margin: 100px 0 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 50px 50px;
+    border-radius: 14px;
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+    border: 2px solid rgb(142, 136, 136);
+    transition:1s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: -1px 1px 8px rgba(90, 88, 88, 0.868);
+    background-color: rgb(228, 172, 18);
+}
+
+#pricing .card:hover{
+    background-color: rgb(74, 160, 214);
+}
+
+.card .priceCut{
+    text-decoration: line-through;
+}
+
+.card h3, .card p, .card span{
+    background-color: inherit;
+}
+
+.price,.price+span{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.priceDes{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.links{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.linkBtn{
+    font-size: 12px;
+    height: 16px;
+    width: auto;
+    margin: 0 8px  12px;
+}
+
+.linkBtn a{
+    all: unset;
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
+
+.linkBtn a:hover{
+    text-decoration: underline;
+}
+
+.copyright, .contact{
+    text-align: center;
+    font-size: 12px;
+    word-spacing: 1px;
+    color: rgb(168, 168, 168);
+    margin-top:20px ;
+}
+
+.contact{
+    margin-top: 10px;
+}
+
+.mt{
+    margin-top:100px ;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 510px){
+    header nav{
+        display: none;
+    }
+}
